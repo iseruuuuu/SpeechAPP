@@ -13,6 +13,9 @@
 		94E1B82325AAE37D00E13D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B82125AAE37D00E13D4A /* Main.storyboard */; };
 		94E1B82525AAE37E00E13D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B82425AAE37E00E13D4A /* Assets.xcassets */; };
 		94E1B82825AAE37E00E13D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B82625AAE37E00E13D4A /* LaunchScreen.storyboard */; };
+		94E1B83125AAE82F00E13D4A /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1B83025AAE82F00E13D4A /* SpeechService.swift */; };
+		94E1B83425AAEB8B00E13D4A /* s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B83325AAEB8B00E13D4A /* s.jpg */; };
+		94E1B83725AAEBD300E13D4A /* as.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E1B83625AAEBD300E13D4A /* as.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		94E1B82425AAE37E00E13D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E1B82725AAE37E00E13D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E1B82925AAE37E00E13D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E1B83025AAE82F00E13D4A /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		94E1B83325AAEB8B00E13D4A /* s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s.jpg; sourceTree = "<group>"; };
+		94E1B83625AAEBD300E13D4A /* as.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = as.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				94E1B81B25AAE37D00E13D4A /* AppDelegate.swift */,
 				94E1B81D25AAE37D00E13D4A /* SceneDelegate.swift */,
 				94E1B81F25AAE37D00E13D4A /* ViewController.swift */,
+				94E1B83025AAE82F00E13D4A /* SpeechService.swift */,
 				94E1B82125AAE37D00E13D4A /* Main.storyboard */,
+				94E1B83625AAEBD300E13D4A /* as.jpg */,
+				94E1B83325AAEB8B00E13D4A /* s.jpg */,
 				94E1B82425AAE37E00E13D4A /* Assets.xcassets */,
 				94E1B82625AAE37E00E13D4A /* LaunchScreen.storyboard */,
 				94E1B82925AAE37E00E13D4A /* Info.plist */,
@@ -124,9 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E1B83725AAEBD300E13D4A /* as.jpg in Resources */,
 				94E1B82825AAE37E00E13D4A /* LaunchScreen.storyboard in Resources */,
 				94E1B82525AAE37E00E13D4A /* Assets.xcassets in Resources */,
 				94E1B82325AAE37D00E13D4A /* Main.storyboard in Resources */,
+				94E1B83425AAEB8B00E13D4A /* s.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +151,7 @@
 				94E1B82025AAE37D00E13D4A /* ViewController.swift in Sources */,
 				94E1B81C25AAE37D00E13D4A /* AppDelegate.swift in Sources */,
 				94E1B81E25AAE37D00E13D4A /* SceneDelegate.swift in Sources */,
+				94E1B83125AAE82F00E13D4A /* SpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
